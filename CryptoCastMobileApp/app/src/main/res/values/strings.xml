@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CryptoCastApp</string>
+    <string name="search_typed_crypto">Search Crypto</string>
+    <string name="show_all_crypto">Show All Cryptos</string>
+    <string name="search_crypto_hint">Write a Crypto Name</string>
+
+    <string name="coin_list_for_network_request">eth;btc;doge;ada;solu;near;gmt;ape;shib;dotu;xrp;trx</string>
+
+    <string name="dash">-</string>
+</resources>

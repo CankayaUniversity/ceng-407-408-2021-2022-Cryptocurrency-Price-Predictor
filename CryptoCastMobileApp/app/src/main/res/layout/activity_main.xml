@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activities.MainActivity">
+
+    <EditText
+        android:id="@+id/crypto_name_input_edit_text"
+        android:hint="@string/search_crypto_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/show_typed_crypto"
+        android:text="@string/search_typed_crypto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/show_all_crypto"
+        android:text="@string/show_all_crypto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+    </Button>
+
+    <TextView
+        android:id="@+id/invalid_coin_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify Me!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/try_network_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Network!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
